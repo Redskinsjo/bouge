@@ -1,0 +1,60 @@
+#popupAdd {
+  position: absolute;
+  top: 60px;
+  right: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.2);
+  width: 419px;
+  height: 475px;
+  padding: 26px;
+  z-index: 2;
+  background-color: white;
+}
+
+#popupAdd h1 {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 900;
+  color: #23d4cd;
+}
+
+#popupAdd h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5a5a5a;
+  margin: 0;
+}
+
+#popupAdd .popupRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#popupAdd .popupRow:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#popupAdd p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #b3b3b3;
+}
+
+#popupAdd img {
+  width: 68px;
+  height: 68px;
+}
+
+#popupAdd i {
+  color: #23d4cd;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}

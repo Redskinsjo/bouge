@@ -1,0 +1,165 @@
+.super-container-search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* container */
+#search-bar {
+    background-color: white;
+    border: 1px solid var(--grey);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 73px;
+    width: 1000px;
+}
+/* divs */
+#search-bar .city {
+    /* width: 100%; */
+    height: 44px;
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+#search-bar .sport {
+    /* width: 168px; */
+    height: 44px;
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-left: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+    justify-content: space-around;
+}
+#search-bar .title {
+    /* width: 168px; */
+    height: 44px;
+    padding-left: 20px;
+    border-right: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+#search-bar .type {
+    /* width: 168px; */
+    height: 44px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+#search-bar .submit {
+    font-size: 16px;
+    font-family: inherit;
+    color: white;
+    background-color: #23d4cd;
+    height: 52px;
+    margin: 0 0 0 20px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
+
+/* elements within the divs */
+#search-bar label {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-indent: 4px;
+    height: 20px;
+}
+#search-bar input,
+select {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    /* height: 16px; */
+    border: none;
+    min-width: 100px;
+    padding: 0;
+    outline: none;
+    margin: 0;
+}
+#search-bar input::placeholder,
+select::placeholder {
+    font-size: 14px;
+}
+#search-bar input {
+    text-indent: 4px;
+    padding-right: 20px;
+}
+#search-bar select {
+    color: gray;
+}
+#search-bar button[type="submit"] {
+    font-size: 16px;
+    font-family: inherit;
+    color: white;
+    background-color: #23d4cd;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 154px;
+}
+#search-bar .submit .icon {
+    font-size: 25px;
+    color: white;
+    padding: 0 5px 0 0;
+}
+
+/*
+Features to import
+font-family: 'Montserrat';
+font-awesome
+*/
+
+/* Results */
+.search-results {
+    background-color: white;
+    /* height: 600px; */
+    width: 962px;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    top: 72px;
+}
+.autocomplete-div {
+    background-color: white;
+    padding: 3px 6px;
+    margin: 0 6px;
+    border-bottom: 1px solid lightgray;
+    /* border-radius: 10px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.autocomplete-div p {
+    font-size: 14px;
+    font-family: inherit;
+    color: black;
+    margin: 0;
+}
+.autocomplete-div:hover {
+    background-color: black;
+}
+.autocomplete-div:hover p {
+    color: white;
+}

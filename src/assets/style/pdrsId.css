@@ -1,0 +1,181 @@
+/* Shared instructions */
+#pdrs-page .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* PDRS CARD  */
+#pdrs-page {
+  position: relative;
+}
+
+#pdrs-page .pdrs-card {
+  padding: 79px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+/* #pdrs-page .pdrs-card .slider {
+    width: 491px;
+    height: 293px;
+    overflow: hidden;
+} */
+#pdrs-page .pdrs-card img {
+  width: 491px;
+  height: 293px;
+  border-radius: 10px;
+}
+#pdrs-page .pdrs-name {
+  display: flex;
+  flex-direction: column;
+}
+#pdrs-page .pdrs-name span:first-child {
+  margin-bottom: 22px;
+}
+#pdrs-page .pdrs-name span:nth-child(2) {
+  font-size: 21px;
+}
+
+#pdrs-page .pdrs-category {
+  width: 491px;
+  margin: 32px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#pdrs-page .pdrs-category span:first-child {
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+  /* background-color: red; */
+  width: 167px;
+  height: 30px;
+  border-radius: 20px;
+  /* border-radius: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pdrs-page .pdrs-category span:last-child {
+  font-size: 21px;
+  color: red;
+}
+#pdrs-page .pdrs-ratings {
+  margin: 36px 0;
+  display: flex;
+  flex-direction: row;
+}
+#pdrs-page .pdrs-ratings label {
+  font-size: 39px;
+}
+#pdrs-page .pdrs-desc {
+  width: 799px;
+  margin-bottom: 0;
+}
+#pdrs-page .pdrs-share {
+  width: 207px;
+  height: 46px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+/* PDRS CONTACT */
+#pdrs-page .pdrs-contact {
+  padding-bottom: 69px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#pdrs-page .pdrs-contact-left-part div:first-child {
+  margin: 69px 0;
+}
+#pdrs-page .pdrs-map img {
+  width: 290px;
+  height: 208px;
+  margin-bottom: -10px;
+  border-radius: 25px;
+}
+#pdrs-page .pdrs-contact-details {
+  margin: 9px 0;
+  display: flex;
+  align-items: center;
+}
+#pdrs-page .pdrs-contact-details img {
+  width: 23px;
+  margin: 0 15px;
+}
+#pdrs-page .pdrs-contact-details span,
+#pdrs-page .pdrs-contact-details a {
+  margin: 0 20px;
+}
+#pdrs-page .pdrs-contact-details a {
+  text-decoration: none;
+}
+#pdrs-page .pdrs-contact-details a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* PDRS SPECS */
+#pdrs-page .pdrs-specs {
+  padding-bottom: 69px;
+  border-bottom: 1px solid black;
+}
+#pdrs-page .pdrs-specs > div:first-child {
+  margin: 69px 0;
+}
+#pdrs-page .pdrs-specs .specs-list {
+  /* display: "flex";
+    flex-wrap: "wrap"; */
+  align-items: center;
+}
+#pdrs-page .pdrs-specs .spec {
+  margin: 9px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#pdrs-page .pdrs-specs .spec img {
+  width: 23px;
+  margin: 0 15px;
+}
+#pdrs-page .pdrs-specs .spec span {
+  min-width: 220px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+#pdrs-page .pdrs-specs .unavailable-spec {
+  text-decoration: line-through;
+}
+#pdrs-page .clipboard-message {
+  color: white;
+  width: 290px;
+  height: 52px;
+  background-color: #23d4cd;
+  position: absolute;
+  top: -30px;
+  left: calc(1280px / 2 - 145px);
+  border: 0.5px solid #23d4cd;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pdrs-page .icon-clipboard-message {
+  color: white;
+  margin-right: 10px;
+}
+#pdrs-page .clipboard-message p {
+  margin: 0;
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Qanelas Heavy";
+  src: url("QanelasSoft-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Qanelas Bold";
+  src: url("QanelasSoft-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Qanelas Reg";
+  src: url("QanelasSoft-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

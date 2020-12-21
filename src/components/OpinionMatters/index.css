@@ -1,0 +1,148 @@
+#opinion h3 {
+  font-size: 25px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 20px;
+}
+
+#opinion h4 {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+#opinion > h4 {
+  color: black;
+  margin-bottom: 50px;
+}
+
+#opinion .buttonsForm {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+#opinion .col-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#opinion .col-1 p {
+  width: 280px;
+  color: inherit;
+  line-height: 26px;
+}
+
+#opinion .col-2 p {
+  width: 260px;
+}
+
+#opinion .buttonsForm .col-1 {
+  padding-right: 97px;
+  border-right: 1px solid#D5D5D5;
+}
+
+#opinion .col-2 {
+  padding-left: 97px;
+}
+
+#opinion .col-1 button,
+#opinion .col-2 button {
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#opinion .col-1 button {
+  background-color: #f28c4e;
+  width: 206px;
+  height: 48px;
+}
+
+#opinion .col-1 button:hover {
+  background-color: #f7a16d;
+}
+
+#opinion .col-2 button {
+  background-color: #23d4cd;
+  width: 233px;
+  height: 48px;
+}
+
+#opinion .col-2 button:hover {
+  background-color: #6bd1cd;
+}
+
+#opinion .expSurvey {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+#opinion .fieldSurvey,
+#opinion .gameSurvey {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+#opinion .generalSurvey {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 600px;
+  margin-bottom: 140px;
+}
+
+#opinion .expSurvey .col-1,
+#opinion .fieldSurvey .col-1,
+#opinion .gameSurvey .col-1,
+#opinion .generalSurvey .col-1 {
+  flex: 1.5;
+  width: 0;
+}
+
+#opinion .generalSurvey .col-1 p,
+#opinion .expSurvey p {
+  color: #404040;
+}
+
+#opinion .expSurvey .col-2,
+#opinion .fieldSurvey .col-2,
+#opinion .gameSurvey .col-2,
+#opinion .generalSurvey .col-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  flex: 1.5;
+}
+
+#opinion .radioContainer {
+  display: flex;
+  align-content: center;
+  position: relative;
+}
+
+#opinion .radioContainer input {
+  visibility: hidden;
+}
+
+#opinion .radioContainer label {
+  position: absolute;
+}
+
+#opinion .radioContainer label:hover {
+  cursor: pointer;
+}

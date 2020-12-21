@@ -1,0 +1,30 @@
+#heroSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#heroSection .text {
+  width: 556px;
+}
+#heroSection h1 {
+  width: 558px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--grey);
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.paragraphes {
+  padding-right: 60px;
+}
+.para1 {
+  margin-bottom: 44px;
+}
+.para1 > p {
+  margin-bottom: 0;
+}
+#heroSection img {
+  width: 476px;
+  height: 500px;
+}

@@ -1,0 +1,72 @@
+.marker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+
+.marker-btn:hover {
+  background: none;
+}
+
+.marker-btn img {
+  height: 30px;
+  width: 30px;
+}
+
+.selectedPDRS {
+  display: flex;
+  width: 420px;
+}
+
+.selectedPDRS img {
+  width: 182px;
+  height: 121px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.selectedPDRS img:hover {
+  cursor: pointer !important;
+}
+
+.selectedPDRS-title h4,
+.selectedPDRS-title span {
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  color: var(--dark);
+}
+
+.selectedPDRS-title h4 {
+  margin-bottom: 0;
+}
+
+.selectedPDRS-title span,
+.selectedPDRS-date {
+  font-size: 14px;
+}
+
+.selectedPDRS-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4px 10px;
+}
+
+.selectedPDRS-date {
+  color: var(--orange);
+}
+.selectedPDRS-badge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectedPDRS-badge a {
+  text-decoration: underline;
+  font-size: 12px;
+  cursor: pointer;
+}

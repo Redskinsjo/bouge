@@ -1,0 +1,10 @@
+/* Uniquement des imports css. Chaque container a sa feuille de style dans  assets > style. Attention à l'ordre pour éviter d'écraser des styles */
+@import "./assets/style/main.css";
+@import "./assets/style/home.css";
+
+@import "./assets/style/cityListens.css";
+@import "./assets/style/commerçant.css";
+@import "./assets/style/sportActor.css";
+@import "./assets/style/creer-une-activite.css";
+
+@import "./assets/style/pdrs.css";

@@ -1,0 +1,173 @@
+/*Home container's style*/
+#homePage #hero {
+  height: 700px;
+  margin-top: -67px;
+  padding-top: 67px;
+  background-image: url("../images/basket-ball-V1.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homePage #hero > .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+#homePage #hero p {
+  width: 591px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#homePage #click p {
+  font-size: 18px;
+  line-height: 30px;
+  width: 880px;
+}
+
+#homePage .pictures {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+#homePage #click .pictures img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 23px;
+}
+
+#homePage .pictures > div {
+  flex: 1;
+}
+
+#homePage .pictures div > div {
+  border-radius: 23px;
+  position: relative;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#homePage .pictures div > div .badge {
+  top: 24px;
+  left: 21px;
+  position: absolute;
+}
+
+#homePage .pictures > div:not(:last-child) {
+  margin-right: 15px;
+}
+
+/* Join */
+
+#homePage #join {
+  background-color: var(--light-pink);
+}
+
+#homePage #join .join-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+#homePage #join .join-links a {
+  flex: 1;
+}
+
+#homePage #join .join-links a div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 23px;
+  height: 220px;
+}
+
+#homePage #join .join-links a:not(:last-child) {
+  margin-right: 15px;
+}
+
+#homePage #join .join-links img {
+  height: 200px;
+}
+
+#homePage #join .join-links a:first-child div {
+  background-color: var(--orange);
+}
+
+#homePage #join .join-links a:nth-child(2) div {
+  background-color: var(--pink);
+}
+
+#homePage #join .join-links a:nth-child(3) div {
+  background-color: var(--blue);
+}
+
+#homePage #join .join-links a:last-child div {
+  background-color: var(--green);
+}
+
+/* newsletter */
+
+#homePage #newsletter {
+  background-color: #f4f8fe;
+}
+
+#homePage #newsletter .container {
+  margin-top: 45px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  max-width: 1003px;
+}
+
+#homePage #newsletter form input {
+  height: 55px;
+  width: 430px;
+  align-self: flex-end;
+  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 12px;
+  padding-left: 49px;
+}
+
+#homePage #newsletter form input::placeholder {
+  color: #b1b1b1;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#homePage #newsletter form {
+  position: relative;
+}
+
+#homePage #newsletter form button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 18px;
+  width: 130px;
+  height: 43px;
+  border-radius: 15px;
+  background-color: #f1bc52;
+  margin: 0;
+}
+
+#homePage #newsletter h3 {
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#homePage #newsletter p {
+  font-size: 22px;
+  font-weight: 600;
+}

@@ -1,0 +1,137 @@
+#pdrs section {
+    padding: 30px 0;
+}
+
+#pdrs section:nth-child(1) {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#pdrs #results .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pdrs #results .no-results {
+    justify-content: center;
+    align-items: center;
+    height: 595px;
+
+    background-image: url("../images/search-bg-blurred.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+#pdrs #results .no-results h2 {
+    padding: 0.4em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+}
+
+#pdrs .results-list,
+#pdrs .map {
+    flex: 1;
+    max-width: 49.5%;
+}
+
+#pdrs .results-list {
+    height: 595px;
+    overflow-y: scroll;
+}
+
+#pdrs .clipboard-message {
+    color: white;
+    width: 290px;
+    height: 52px;
+    background-color: #23d4cd;
+    position: absolute;
+    top: -30px;
+    left: calc(1280px / 2 - 145px);
+    border: 0.5px solid #23d4cd;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pdrs .icon-clipboard-message {
+    color: white;
+    margin-right: 10px;
+}
+#pdrs .clipboard-message p {
+    margin: 0;
+}
+#pdrs .container-message {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    height: 20px;
+}
+
+#pdrs #results .pagination {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#pdrs #results .pageLinkClassName {
+    margin: 0 8px;
+    font-size: 18px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: var(--green);
+    color: white;
+    outline: none;
+}
+
+#pdrs #results .pageLinkClassName:hover {
+    cursor: pointer;
+}
+
+#pdrs #results .activeLinkClassName {
+    opacity: 1;
+    background-color: var(--pink);
+}
+
+#pdrs #results .previousLinkClassName:hover,
+#pdrs #results .nextLinkClassName:hover {
+    cursor: pointer;
+}
+
+#pdrs #results .disabledClassName {
+    opacity: 0.5;
+}
+
+#pdrs #results .disabledClassName:hover {
+    cursor: none !important;
+}
+
+#pdrs #results .previousLinkClassName,
+#pdrs #results .nextLinkClassName {
+    margin: 0 12px;
+}
+
+#pdrs .clipboard-message {
+    color: white;
+    width: 290px;
+    height: 52px;
+    background-color: #23d4cd;
+    position: absolute;
+    top: 30px;
+    left: calc(100% / 2 - 145px);
+    border: 0.5px solid #23d4cd;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pdrs .icon-clipboard-message {
+    color: white;
+    margin-right: 10px;
+}
+#pdrs .clipboard-message p {
+    margin: 0;
+}

@@ -1,0 +1,88 @@
+/* container */
+.locationCard-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#locationCard {
+  flex: 8;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#results .results-list hr {
+  width: 96%;
+}
+
+#results .results-list hr:last-of-type {
+  display: none;
+}
+
+/* 3 first divs */
+#locationCard img {
+  height: 125px;
+  border-radius: 20px;
+  width: 190px;
+  object-fit: cover;
+}
+
+#locationCard .details-card {
+  flex: 1;
+  padding: 4px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.related-card {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 12px;
+  color: var(--dark);
+  font-size: 12px;
+  height: 125px;
+  margin-bottom: 15px;
+}
+.related-card span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* SUBDIVS */
+
+/* subdivs of .details-card */
+#locationCard .location-card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* subdivs of .related-card */
+#locationCard .related-card span {
+  /* margin-top: 10px; */
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+/* LEVEL UNDER THE SUBDIVS */
+
+/* under the subdivs */
+#locationCard .location-card span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+#locationCard .location-card span:nth-child(2) {
+  font-size: 14px;
+}
+#locationCard .location-card span:nth-child(3) {
+  font-size: 13px;
+  color: gray;
+}
+
+#locationCard .type-card span:nth-child(2) {
+  font-size: 14px;
+  margin: 0 10px;
+}
